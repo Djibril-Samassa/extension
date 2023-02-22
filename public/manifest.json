@@ -1,6 +1,17 @@
 {
   "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "My app",
+  "description": "Ouvrez tous vos liens en un seul click",
+  "version":"1.0",
+  "manifest_version": 3,
+  "action":{
+    "default_title":"My app",
+    "default_popup":"index.html",
+    "default_icon":{
+      "16":"logo192.png",
+      "128":"logo512.png"
+    }
+  },
   "icons": [
     {
       "src": "favicon.ico",
