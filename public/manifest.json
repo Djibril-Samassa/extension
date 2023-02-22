@@ -2,14 +2,14 @@
   "short_name": "EasyLink",
   "name": "EasyLink by Djibril SAMASSA",
   "description": "Ouvrez tous vos liens en un seul click",
-  "version":"1.0",
+  "version": "1.0",
   "manifest_version": 3,
-  "action":{
-    "default_title":"EasyLink",
-    "default_popup":"index.html",
-    "default_icon":{
-      "16":"2130.jpg",
-      "128":"2130.jpg"
+  "action": {
+    "default_title": "EasyLink",
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "logo192.png",
+      "128": "logo512.png"
     }
   }
 }
