@@ -58,7 +58,7 @@ function App() {
     }
   ]
 
-  const data3 = ["https://www.linkedin.com/", "https://djibrilsamassa.netlify.app/", "https://github.com/Djibril-Samassa?tab=repositories"]
+  const data3 = ["https://www.linkedin.com/in/djibril-samassa/", "https://djibrilsamassa.netlify.app/", "https://github.com/Djibril-Samassa?tab=repositories"]
 
 
   const [list, setList] = useState(data)
@@ -73,7 +73,7 @@ function App() {
 
   return (
     <div className="App">
-      <h3>Choisissez votre Application</h3>
+      <h3>Quels liens voulez-vous ouvrir ?</h3>
       <p>Sites par thèmes</p>
       <div className='list'>
         {bestSites && bestSites.map((item) => {
